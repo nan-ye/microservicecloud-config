@@ -1,0 +1,16 @@
+﻿spring:
+    profiles:
+        active:
+            - dev
+---
+spring:
+    profiles: dev    #开发环境
+    application:
+        name:microservicecloud-config-nan-dev
+---
+spring:
+    profiles: test   #测试环境
+    application: 
+        name: microservicecloud-config-nan-test
+        
+#保存方式为utf-8
